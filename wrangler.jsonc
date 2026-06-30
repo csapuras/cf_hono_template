@@ -1,5 +1,21 @@
 {
   "name": "cf_hono_template",
   "main": "src/server/index.ts",
-  "compatibility_date": "2026-06-30"
+  "compatibility_date": "2026-06-30",
+  "assets": {
+    "directory": "./dist",
+    "binding": "ASSETS"
+  },
+  "env": {
+    "staging": {
+      "vars": {
+        "ENVIRONMENT": "staging"
+      }
+    },
+    "production": {
+      "vars": {
+        "ENVIRONMENT": "production"
+      }
+    }
+  }
 }

@@ -8,7 +8,7 @@
       }
     },
     {
-      "files": ["*.jsonc", "tsconfig.json"],
+      "files": ["wrangler.jsonc"],
       "options": {
         "trailingComma": "none"
       }
