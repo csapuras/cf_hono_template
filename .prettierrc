@@ -6,6 +6,12 @@
       "options": {
         "parser": "astro"
       }
+    },
+    {
+      "files": ["*.jsonc", "tsconfig.json"],
+      "options": {
+        "trailingComma": "none"
+      }
     }
   ]
 }
