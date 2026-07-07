@@ -31,6 +31,7 @@
     "eslint": "^10.6.0",
     "eslint-plugin-astro": "^2.1.1",
     "hono": "^4.12.27",
+    "jose": "^6.2.3",
     "lucide-react": "^1.22.0",
     "prettier": "^3.9.4",
     "prettier-plugin-astro": "^0.14.1",

@@ -9,7 +9,9 @@
   "env": {
     "staging": {
       "vars": {
-        "ENVIRONMENT": "staging"
+        "ENVIRONMENT": "staging",
+        "POLICY_AUD": "cb80752caff98358032872e35bc175228edf45c205b7523aab770257a435ceb3",
+        "CF_ACCESS_DOMAIN": "https://nich3.cloudflareaccess.com"
       }
     },
     "production": {
