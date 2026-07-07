@@ -10,7 +10,8 @@
     {
       "binding": "DB",
       "database_name": "cf_hono_local_db",
-      "database_id": "test"
+      "database_id": "test",
+      "migrations_dir": "./src/server/db/migrations"
     }
   ],
   "env": {
@@ -24,7 +25,8 @@
         {
           "binding": "DB",
           "database_name": "cf_hono_staging_db",
-          "database_id": "4070ab50-378e-4971-8c59-0742658d44bd"
+          "database_id": "4070ab50-378e-4971-8c59-0742658d44bd",
+          "migrations_dir": "./src/server/db/migrations"
         }
       ]
     },
